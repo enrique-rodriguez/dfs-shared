@@ -6,5 +6,4 @@ setup(
     description='DFS Shared',
     author='Enrique Rodriguez',
     author_email='rodriguez.enrique.pr@gmail.com',
-    packages=['dfs_shared'],
 )
