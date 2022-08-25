@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5e1e8590b89c2d9dc8fb656c69af2954d45e625039dbd0a4fdaa4b515d249526"
+            "sha256": "923e9d087c2adc810207e766fba8dc77d2fb9bb0832765f400d406e4b18c297d"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -15,7 +15,12 @@
             }
         ]
     },
-    "default": {},
+    "default": {
+        "dfs-shared": {
+            "path": ".",
+            "version": "==0.0.1"
+        }
+    },
     "develop": {
         "attrs": {
             "hashes": [
