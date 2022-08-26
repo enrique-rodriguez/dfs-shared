@@ -4,3 +4,16 @@ dfs_shared.egg-info/PKG-INFO
 dfs_shared.egg-info/SOURCES.txt
 dfs_shared.egg-info/dependency_links.txt
 dfs_shared.egg-info/top_level.txt
+dfs_shared/application/__init__.py
+dfs_shared/application/message_bus.py
+dfs_shared/application/uow.py
+dfs_shared/domain/__init__.py
+dfs_shared/domain/commands.py
+dfs_shared/domain/events.py
+dfs_shared/domain/model.py
+dfs_shared/domain/repository.py
+dfs_shared/domain/specification.py
+dfs_shared/infrastructure/__init__.py
+dfs_shared/infrastructure/inmemory_repo.py
+dfs_shared/infrastructure/json_db.py
+dfs_shared/infrastructure/pickle_repo.py
