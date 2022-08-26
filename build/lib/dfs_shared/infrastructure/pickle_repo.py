@@ -77,8 +77,10 @@ class PickleRepository(Repository):
 
     def _save(self, obj):
         _type = type(obj)
-        self.objects[_type].add(deepcopy(obj))
-
+        obj_cp = deepcopy(obj)
+        obj_cp.events.clear()
+        self.objects[_type].add(obj_cp)
+        
     def _update(self, obj):
         obj_saved = self.get(obj.id)
         for field, value in vars(obj).items():
